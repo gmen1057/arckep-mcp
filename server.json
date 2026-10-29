@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ru.arckep/mcp",
+  "title": "Arckép",
+  "description": "Generate images, video, speech, 3D, slide decks, Word/Excel/PDF docs, product cards, and AI chat.",
+  "version": "1.0.0",
+  "websiteUrl": "https://arckep.ru/developer",
+  "icons": [
+    {
+      "src": "https://arckep.ru/icons/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    },
+    {
+      "src": "https://arckep.ru/icons/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/gmen1057/arckep-mcp",
+    "source": "github",
+    "id": "1438681772"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arckep.ru/api/v1/mcp"
+    }
+  ]
+}
